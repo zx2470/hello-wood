@@ -7,10 +7,6 @@ p {
     font-size: 20px;
 }
 
-li{
-    font-family:lato bold;
-    text-align: right;
-}
             
 #languageToggle {
     padding: 10px 20px;
@@ -20,10 +16,9 @@ li{
     cursor: pointer;
 }
 
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
     padding: 0;
-    list-style: none;
 }
 
 
@@ -36,11 +31,7 @@ body {
 }
 
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
+
 
 
 h1 {
@@ -60,9 +51,8 @@ p {
 
 a {
     text-decoration: none;
-    
+   
 }
-
 
 
 
@@ -73,16 +63,47 @@ ul {
 }
 
 li {
+    font-family: 'Lato', sans-serif;
+font-weight: 300;
+    
+   
+    text-align: right;
     font-size: 16px;
     line-height: 1.5;
     color: #666;
     margin-bottom: 5px;
+    list-style: none;
 }
 
 
 img {
-    max-width: 100%;
-    height: auto;
+    width: 500px;
     display: block;
-    margin: 0 auto;
+}
+
+
+
+.container {
+    display: flex; 
+}
+
+
+.content {
+    flex: 1; 
+    padding: 40px;
+}
+
+
+.sidebar {
+    width: 300px; 
+    background-color: #f0f0f0;
+    padding: 40px;
+}
+
+.divider {
+    margin-top: 40px;
+    border-left: 2px solid #000; 
+    height: 100%; 
+    line-height: 1.5;
+    
 }
