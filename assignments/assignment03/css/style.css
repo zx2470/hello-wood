@@ -30,6 +30,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Lora;
 }
 
+footer {
+    font-family:lato, sans-serif;
+    font-size: 18px;
+    color: #666;
+}
+
 p {
     font-family:lato light, sans-serif;
     font-size: 18px;
@@ -96,6 +102,7 @@ li {
     border-left: 2px solid #000; 
     height: 100%; 
     line-height: 1.5;
+    font-size: 18px;
 }
 
 
@@ -106,7 +113,7 @@ li {
     border: none;
     cursor: pointer;
     font-family:lato regular, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 figure {
