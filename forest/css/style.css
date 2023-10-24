@@ -1,0 +1,31 @@
+
+
+
+a {
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #333;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.grid-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+    transition: transform 0.2s;
+}
+.grid-item:hover {
+    transform: scale(1.05);
+    background-color: #ffcc00;
+}
+
+
