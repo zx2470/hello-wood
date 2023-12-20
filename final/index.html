@@ -11,27 +11,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Droid Serif' rel='stylesheet'>
 </head>
+
 <body>
+
+
+
     <div class="container">
         <div class="table-container">
+            <div class="additional-content">                
+                <p>
+                    The <strong>Orinoco Mining Arc</strong> in Venezuela is a large-scale mining project that has raised concerns due to its significant impact on natural ecosystems and indigenous communities. This initiative, spanning an area rich in biodiversity, has led to deforestation, habitat destruction, and contamination of water sources. Protected areas and watersheds are particularly affected, disrupting delicate ecological balances. Indigenous people, who rely on the land for their livelihoods, face displacement and the loss of their traditional way of life. Additionally, the mining arc has witnessed illegal mining activities, further exacerbating environmental degradation and posing serious threats to both the environment and the well-being of local communities. This webpage aims to highlight these issues, shedding light on the consequences of the mining arc on protected areas, watersheds, and the indigenous population.
+                </p>
+                <p>
+                    <div class="a1">
+                    <a href="https://en.wikipedia.org/wiki/Orinoco_Mining_Arc">More about Orinoco Mining Arc...</a>
+                    </div>
+                </p>
+
+            </div>
+
             <table>
                 <thead>
-                    <tr>
-                        <th> </th>
-                        <th> </th>
-                        <th> </th>
+                    <tr class="custom-header">
+                        <th >Category</th>
+                        <th >Primary Effect</th>
+                        <th >Secondary Effect</th>
                     </tr>
                 </thead>
                 <tbody>
 
+                <!-- Protected Areas -->
                     <!-- 1 -->
-                    <tr class="row">
+                    <tr class="row" data-category="protected_areas">
                         <td>Protected Areas</td>
                         <td>Yapacana National Park</td>
                         <td>Illegal Mining Pollution</td>
                         
                     </tr>
-                    <tr class="details">
+                    <tr class="details" data-category="protected_areas">
                         <td colspan="3">
                             <p>
                                 <div class="details-container">
@@ -54,12 +71,12 @@
                     </tr>
 
                     <!-- 2 -->
-                    <tr class="row">
+                    <tr class="row" data-category="protected_areas">
                         <td>Protected Areas</td>
                         <td>Canaima National Park</td>
                         <td>Endangered Jaguar</td>
                     </tr>
-                    <tr class="details">
+                    <tr class="details" data-category="protected_areas">
                         <td colspan="3">
                             <p>
                                 <div class="details-container">
@@ -85,12 +102,12 @@
                     </tr>
 
                     <!-- 3 -->
-                    <tr class="row">
+                    <tr class="row" data-category="protected_areas">
                         <td>Protected Areas</td>
                         <td>Canaima National Park</td>
                         <td>Endangered Giant Otter</td>
                     </tr>
-                    <tr class="details">
+                    <tr class="details" data-category="protected_areas">
                         <td colspan="3">
                             <p>
                                 <div class="details-container">
@@ -116,12 +133,12 @@
                     </tr>        
 
                     <!-- 4 -->
-                    <tr class="row">
+                    <tr class="row" data-category="protected_areas">
                         <td>Protected Areas</td>
                         <td>Canaima National Park</td>
                         <td>Endangered Giant Anteater</td>
                     </tr>
-                    <tr class="details">
+                    <tr class="details" data-category="protected_areas">
                         <td colspan="3">
                             <p>
                                 <div class="details-container">
@@ -149,12 +166,12 @@
                     </tr>     
 
                     <!-- 5 -->
-                    <tr class="row">
+                    <tr class="row" data-category="protected_areas">
                         <td>Protected Areas</td>
                         <td>Imataca Forest Reserve</td>
                         <td>Mining Pollution</td>
                     </tr>
-                    <tr class="details">
+                    <tr class="details" data-category="protected_areas">
                         <td colspan="3">
                             <p>
                                 <div class="details-container">
@@ -179,13 +196,14 @@
                         </td>
                     </tr>  
 
+                <!-- Watersheds -->
                     <!-- 6 -->
-                    <tr class="row">
+                    <tr class="row" data-category="watersheds">
                         <td>Watersheds</td>
                         <td>Mercury Pollution</td>
                         <td>Freshwater Fish Industry</td>
                     </tr>
-                    <tr class="details">
+                    <tr class="details" data-category="watersheds">
                         <td colspan="3">
                             <p>
                                 <div class="details-container">
@@ -210,12 +228,12 @@
                     </tr>  
 
                     <!-- 7 -->
-                    <tr class="row">
+                    <tr class="row" data-category="watersheds">
                         <td>Watersheds</td>
                         <td>Mercury Pollution</td>
                         <td>Dangerous Level of Mercury Exposure to Human</td>
                     </tr>
-                    <tr class="details">
+                    <tr class="details" data-category="watersheds">
                         <td colspan="3">
                             <p>
                                 <div class="details-container">
@@ -239,13 +257,13 @@
                         </td>
                     </tr>  
 
-                    <!-- 7 -->
-                    <tr class="row">
+                    <!-- 8 -->
+                    <tr class="row" data-category="watersheds">
                         <td>Watersheds</td>
                         <td>Excessive Water Sediment</td>
                         <td>Decline in Hydroelectricity Generation</td>
                     </tr>
-                    <tr class="details">
+                    <tr class="details" data-category="watersheds">
                         <td colspan="3">
                             <p>
                                 <div class="details-container">
@@ -260,8 +278,9 @@
                                         </div>
                                     </div>
                                     <div class="details-right">
-                                        <p> Miners involved in gold mining activities, particularly those using mercury in amalgamation processes, may also face occupational exposure to mercury vapor. This exposure can lead to chronic health problems, including neurological and respiratory issues.
-
+                                        <p> Excessive sedimentation can reduce the efficiency of hydroelectric power plants. Sediment deposits in reservoirs can decrease the water storage capacity and interfere with the proper functioning of turbines, leading to decreased energy production.
+                                        <br>
+                                            Sediment-laden water can cause wear and tear on the turbines, blades, and other equipment in hydroelectric plants. The abrasive nature of sediment particles can lead to a shorter lifespan for these components, requiring more frequent replacements and repairs.
                                         </p>
                                     </div>
                                 </div>                                 
@@ -269,100 +288,37 @@
                         </td>
                     </tr>  
 
-
-                    <!-- 1 -->
-                    <tr class="row">
-                        <td>Protected Areas</td>
-                        <td>Canaima National Park</td>
-                        <td>Endangered Jaguar</td>
+                <!-- Indigenous People -->
+                    <!-- 9 -->
+                    <tr class="row" data-category="watersheds">
+                        <td>Watersheds</td>
+                        <td>Excessive Water Sediment</td>
+                        <td>Decline in Hydroelectricity Generation</td>
                     </tr>
-                    <tr class="details">
+                    <tr class="details" data-category="watersheds">
                         <td colspan="3">
-                            <p>The jaguar (Panthera onca) is the largest big cat native to the Americas and is known for its powerful build and distinctive spotted coat. Jaguars face various threats, including habitat loss, poaching, and conflicts with humans. Their conservation status varies across different regions, but overall, jaguars are listed as "Near Threatened" on the International Union for Conservation of Nature (IUCN) Red List.
-
-                                Canaima National Park, located in Venezuela, is a vast and ecologically diverse area that is home to a variety of wildlife, including jaguars. Conservation efforts in the park are crucial to protecting the biodiversity of the region.</p>
+                            <p>
+                                <div class="details-container">
+                                    <div class="details-left">
+                                        <div class="image-container2">
+                                            <img src="images/Watersheds-ExcessiveWaterSediment-Feature.jpg" alt="imageof/Watersheds-ExcessiveWaterSediment-Feature">
+                                            <figcaption class="generalfigcaption">Watersheds: Excessive Water Sediment</figcaption>
+                                        </div>
+                                        <div class="image-container2">
+                                            <img src="images/Watersheds-ExcessiveWaterSediment-DeclineInHydroelectricityGeneration.png" alt="Watersheds-ExcessiveWaterSediment-DeclineInHydroelectricityGeneration">
+                                            <figcaption class="generalfigcaption">Watersheds: Excessive Water Sediment to Decline in Hydroelectricity Generation</figcaption>
+                                        </div>
+                                    </div>
+                                    <div class="details-right">
+                                        <p> Excessive sedimentation can reduce the efficiency of hydroelectric power plants. Sediment deposits in reservoirs can decrease the water storage capacity and interfere with the proper functioning of turbines, leading to decreased energy production.
+                                        <br>
+                                            Sediment-laden water can cause wear and tear on the turbines, blades, and other equipment in hydroelectric plants. The abrasive nature of sediment particles can lead to a shorter lifespan for these components, requiring more frequent replacements and repairs.
+                                        </p>
+                                    </div>
+                                </div>                                 
+                            </p>
                         </td>
-                    </tr>
-
-                    <!-- 2 -->
-                    <tr class="row">
-                        <td>Protected Areas</td>
-                        <td>Canaima National Park</td>
-                        <td>Endangered Jaguar</td>
-                    </tr>
-                    <tr class="details">
-                        <td colspan="3">
-                            <p>The jaguar (Panthera onca) is the largest big cat native to the Americas and is known for its powerful build and distinctive spotted coat. Jaguars face various threats, including habitat loss, poaching, and conflicts with humans. Their conservation status varies across different regions, but overall, jaguars are listed as "Near Threatened" on the International Union for Conservation of Nature (IUCN) Red List.
-
-                                Canaima National Park, located in Venezuela, is a vast and ecologically diverse area that is home to a variety of wildlife, including jaguars. Conservation efforts in the park are crucial to protecting the biodiversity of the region.</p>
-                        </td>
-                    </tr>
-
-                    <tr class="row">
-                        <td>Protected Areas</td>
-                        <td>Canaima National Park</td>
-                        <td>Endangered Jaguar</td>
-                    </tr>
-                    <tr class="details">
-                        <td colspan="3">
-                            <p>The jaguar (Panthera onca) is the largest big cat native to the Americas and is known for its powerful build and distinctive spotted coat. Jaguars face various threats, including habitat loss, poaching, and conflicts with humans. Their conservation status varies across different regions, but overall, jaguars are listed as "Near Threatened" on the International Union for Conservation of Nature (IUCN) Red List.
-
-                                Canaima National Park, located in Venezuela, is a vast and ecologically diverse area that is home to a variety of wildlife, including jaguars. Conservation efforts in the park are crucial to protecting the biodiversity of the region.</p>
-                        </td>
-                    </tr>
-
-
-                    <tr class="row">
-                        <td>Protected Areas</td>
-                        <td>Canaima National Park</td>
-                        <td>Endangered Jaguar</td>
-                    </tr>
-                    <tr class="details">
-                        <td colspan="3">
-                            <p>The jaguar (Panthera onca) is the largest big cat native to the Americas and is known for its powerful build and distinctive spotted coat. Jaguars face various threats, including habitat loss, poaching, and conflicts with humans. Their conservation status varies across different regions, but overall, jaguars are listed as "Near Threatened" on the International Union for Conservation of Nature (IUCN) Red List.
-
-                                Canaima National Park, located in Venezuela, is a vast and ecologically diverse area that is home to a variety of wildlife, including jaguars. Conservation efforts in the park are crucial to protecting the biodiversity of the region.</p>
-                        </td>
-                    </tr>
-
-                    <tr class="row">
-                        <td>Protected Areas</td>
-                        <td>Canaima National Park</td>
-                        <td>Endangered Jaguar</td>
-                    </tr>
-                    <tr class="details">
-                        <td colspan="3">
-                            <p>The jaguar (Panthera onca) is the largest big cat native to the Americas and is known for its powerful build and distinctive spotted coat. Jaguars face various threats, including habitat loss, poaching, and conflicts with humans. Their conservation status varies across different regions, but overall, jaguars are listed as "Near Threatened" on the International Union for Conservation of Nature (IUCN) Red List.
-
-                                Canaima National Park, located in Venezuela, is a vast and ecologically diverse area that is home to a variety of wildlife, including jaguars. Conservation efforts in the park are crucial to protecting the biodiversity of the region.</p>
-                        </td>
-                    </tr>
-
-                    <tr class="row">
-                        <td>Protected Areas</td>
-                        <td>Canaima National Park</td>
-                        <td>Endangered Jaguar</td>
-                    </tr>
-                    <tr class="details">
-                        <td colspan="3">
-                            <p>The jaguar (Panthera onca) is the largest big cat native to the Americas and is known for its powerful build and distinctive spotted coat. Jaguars face various threats, including habitat loss, poaching, and conflicts with humans. Their conservation status varies across different regions, but overall, jaguars are listed as "Near Threatened" on the International Union for Conservation of Nature (IUCN) Red List.
-
-                                Canaima National Park, located in Venezuela, is a vast and ecologically diverse area that is home to a variety of wildlife, including jaguars. Conservation efforts in the park are crucial to protecting the biodiversity of the region.</p>
-                        </td>
-                    </tr>
-
-                    <tr class="row">
-                        <td>Protected Areas</td>
-                        <td>Canaima National Park</td>
-                        <td>Endangered Jaguar</td>
-                    </tr>
-                    <tr class="details">
-                        <td colspan="3">
-                            <p>The jaguar (Panthera onca) is the largest big cat native to the Americas and is known for its powerful build and distinctive spotted coat. Jaguars face various threats, including habitat loss, poaching, and conflicts with humans. Their conservation status varies across different regions, but overall, jaguars are listed as "Near Threatened" on the International Union for Conservation of Nature (IUCN) Red List.
-
-                                Canaima National Park, located in Venezuela, is a vast and ecologically diverse area that is home to a variety of wildlife, including jaguars. Conservation efforts in the park are crucial to protecting the biodiversity of the region.</p>
-                        </td>
-                    </tr>
+                    </tr>  
 
                 </tbody>
             </table>
@@ -370,18 +326,18 @@
         
         <div class="image-container">
             <div class="image-container3">
-                <img src="images/Right-ProtectedAreas.png" alt="imageofRight-ProtectedAreas">
+                <img src="images/Right-ProtectedAreas.png" alt="imageofRight-ProtectedAreas" data-category="protected_areas">
                 <figcaption class="generalfigcaption">Protected Areas</figcaption>
             </div>
 
             <div class="image-container3">
-            <img src="images/Right-Watersheds.png" alt="imageofRight-Watersheds">
+            <img src="images/Right-Watersheds.png" alt="imageofRight-Watersheds" data-category="watersheds">
             <figcaption class="generalfigcaption">Watersheds</figcaption>
             </div>
 
             <div class="image-container3">
-            <img src="images/Right-IndigenousPeople.png" alt="imageofRight-IndigenousPeople">
-            <figcaption class="generalfigcaption">Indigenous Peop</figcaption>
+            <img src="images/Right-IndigenousPeople.png" alt="imageofRight-IndigenousPeople" data-category="indigenous_people">
+            <figcaption class="generalfigcaption">Indigenous People</figcaption>
             </div>
 
         </div>
@@ -400,6 +356,38 @@
                 });
             });
         });
+
+
+
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+    var imageContainers = document.querySelectorAll(".image-container img");
+    var rows = document.querySelectorAll(".row");
+
+    imageContainers.forEach(function (image) {
+        image.addEventListener("click", function () {
+            var category = this.getAttribute("data-category");
+
+            // 隐藏所有行
+            rows.forEach(function (row) {
+                row.style.display = "none";
+            });
+
+            // 显示符合类别的行
+            rows.forEach(function (row) {
+                var dataCategory = row.getAttribute("data-category");
+                if (dataCategory === category) {
+                    row.style.display = "table-row";
+                }
+            });
+        });
+    });
+});
+
+
+
+
     </script>
     
 

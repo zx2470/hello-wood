@@ -26,6 +26,21 @@ p{
     overflow-y: auto;
 }
 
+.additional-content {
+    margin: 20px;
+}
+
+.a1 {
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    background-color: #ddd;
+}
+
+
 table {
     border-collapse: collapse;
     width: 100%;
@@ -38,15 +53,15 @@ th, td {
     text-align: left;
 }
 
-th:nth-child(1), td:nth-child(1) {
+td:nth-child(1) {
     width: 20%;
 }
 
-th:nth-child(2), td:nth-child(2) {
+td:nth-child(2) {
     width: 20%;
 }
 
-th:nth-child(3), td:nth-child(3) {
+td:nth-child(3) {
     width: 60%;
 }
 
@@ -62,7 +77,7 @@ tr:hover {
 
 
 .image-container {
-    width: 300px; /* 固定右侧列的宽度 */
+    width: 300px; 
     height: 100vh;
     background-color: #ddd;
     padding: 20px;
@@ -139,7 +154,7 @@ tr:hover {
 .image-container3 img {
     object-fit: cover;
     width: 240px; /* 固定宽度 */
-    height: auto; /* 固定高度 */
+    height: auto; 
     padding: 10px;
     
 }
